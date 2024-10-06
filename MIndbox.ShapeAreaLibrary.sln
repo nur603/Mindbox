@@ -2,6 +2,8 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MIndbox.ShapeAreaLibrary", "MIndbox.ShapeAreaLibrary\MIndbox.ShapeAreaLibrary.csproj", "{C0B813CA-1B5A-4889-A1AF-538D600CFBF2}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MIndbox.ShapeAreaLibrary.Tests", "MIndbox.ShapeAreaLibrary.Tests\MIndbox.ShapeAreaLibrary.Tests.csproj", "{6C3E43A8-CF12-405B-A617-4A643F877409}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -12,5 +14,9 @@ Global
 		{C0B813CA-1B5A-4889-A1AF-538D600CFBF2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C0B813CA-1B5A-4889-A1AF-538D600CFBF2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C0B813CA-1B5A-4889-A1AF-538D600CFBF2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6C3E43A8-CF12-405B-A617-4A643F877409}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6C3E43A8-CF12-405B-A617-4A643F877409}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6C3E43A8-CF12-405B-A617-4A643F877409}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6C3E43A8-CF12-405B-A617-4A643F877409}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
