@@ -3,6 +3,9 @@
     <PropertyGroup>
         <TargetFramework>net8.0</TargetFramework>
         <ImplicitUsings>enable</ImplicitUsings>
+        <Title>CalculateArea</Title>
+        <RepositoryUrl>https://github.com/nur603/Mindbox.git</RepositoryUrl>
+        <Version>1.0</Version>
         <Nullable>enable</Nullable>
     </PropertyGroup>
 
