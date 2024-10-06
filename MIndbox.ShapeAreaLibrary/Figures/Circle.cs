@@ -8,6 +8,21 @@ public class Circle : IShape
 
     public Circle(double radius)
     {
+        if (!double.IsFinite(radius))
+        {
+            throw new ArgumentException("Radius must be a finite number.");
+        }
+
+        if (radius <= 0)
+        {
+            throw new ArgumentException("Radius must be greater than zero.");
+        }
+
+        if (radius > 100)
+        {
+            throw new ArgumentException("Radius cannot exceed 100.");
+        }
+        
         Radius = radius;
     }
 
