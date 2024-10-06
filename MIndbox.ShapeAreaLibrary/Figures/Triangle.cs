@@ -7,6 +7,8 @@ public class Triangle : IShape
     public double SideA { get; private set; }
     public double SideB { get; private set; }
     public double SideC { get; private set; }
+    
+    public bool IsRightAngled { get; private set; }
 
     public Triangle(double sideA, double sideB, double sideC)
     {
@@ -21,6 +23,11 @@ public class Triangle : IShape
         {
             throw new ArgumentException("A triangle cannot have all sides equal to zero.");
         }
+        
+        double[] sides = { SideA, SideB, SideC };
+        Array.Sort(sides);
+        
+        IsRightAngled = Math.Abs(sides[0] * sides[0] + sides[1] * sides[1] - sides[2] * sides[2]) < 1e-10;
 
         SideA = sideA;
         SideB = sideB;
